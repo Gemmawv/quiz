@@ -9,23 +9,18 @@ h1{
     padding: 20px;
 }
 
-.answers{
-   
-    
+.answers{  
     margin-bottom: 200px;
-   
-
 }
 
 .questions{
     color: green;
     font-size: 50px;
     text-align: center;
-    
-   margin-top: 50px;
+    margin-top: 50px;
 }
 
-
+/*
 .answer_correct{
     background-color:#00e500;
     
@@ -33,7 +28,7 @@ h1{
 
 .answer_incorrect{
      background-color:#cc0000;
-}
+}*/
 
 #Total{
        top: 350px;

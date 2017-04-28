@@ -5,14 +5,6 @@ $(document).ready(function () {
       $('#question-1').show();
 
 
-
-
-
-
-
-
-
-
     var score = 0;
     runningTotal = document.getElementById('Total')
     runningTotal.innerHTML = "score: " + score;
@@ -23,7 +15,7 @@ $(document).ready(function () {
          $(this).parents().next('.questions').show();
         
 
-        return runningTotal.innerHTML = "score: " + score + "/10";
+        return runningTotal.innerHTML = "Score: " + score + "/10";
     });
     $(".incorrect").click(function () {
         $(this).removeClass("btn-primary").addClass("btn-danger").off("click");
