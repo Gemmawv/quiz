@@ -1,13 +1,14 @@
 h1{
     color: blue;
     text-shadow: 3px 2px black;
-    font-family: "Arial", Verdana, serif;
+    font-family: 'Arvo', 'Arial', serif;
     font-size: 75px;
     text-align: center;
     border-style: solid;
     border-color: black;
     padding: 20px;
 }
+
 
 .answers{  
     margin-bottom: 200px;
@@ -16,21 +17,12 @@ h1{
 .questions{
     color: green;
     font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
     margin-top: 50px;
 }
 
-/*
-.answer_correct{
-    background-color:#00e500;
-    
-}
-
-.answer_incorrect{
-     background-color:#cc0000;
-}*/
-
-#Total{
+#total{
        top: 350px;
        right: 50px;
        position: fixed;
@@ -38,6 +30,21 @@ h1{
        border-style: inset;
        border-color: black;
        background-color: black;
+       color:white;
+       border-radius: 20px;
+       height: 100px;
+       width: 100px;
+       text-align: center;
+       padding-top: 15px;
+       font-size: 20px;
+}
+
+#again{
+       bottom: 350px;
+       right: 50px;
+       position: fixed;
+       z-index: 2000;
+       background-color: blue;
        color:white;
        border-radius: 20px;
        height: 100px;
